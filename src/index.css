@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.example div {
+  background-color: peachpuff;
+  height: 50px;
+  width: 80px;
+  border: black 1px solid;
+}
+.example {
+  border: lightgrey dashed 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.move-down {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.move-up {
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
