@@ -5,23 +5,14 @@
 .example div {
   background-color: peachpuff;
   height: 50px;
-  width: 80px;
+  padding: 0.75rem;
+  width: 150px;
   border: black 1px solid;
+  padding-left: 12px;
 }
 .example {
   border: lightgrey dashed 1px;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 200px;
-}
-
-.move-down {
-  position: relative;
-  top: 20px;
-  left: 10px;
-}
-.move-up {
-  position: relative;
-  top: -20px;
-  left: 10px;
 }
