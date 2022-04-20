@@ -13,8 +13,9 @@ export function DivDimensions() {
           Note that{" "}
           <code className="text-neutral-700 text-sm">position: fixed;</code> and{" "}
           <code className="text-neutral-700 text-sm">position: absolute;</code>{" "}
-          takes elements out of flow. They then act like inline elements, in
-          that their dimensions are determined by their content.
+          takes elements out of flow. They then act like inline-block elements,
+          in that their dimensions are determined by their content if a width is
+          not set.
         </div>
       </div>
     </>

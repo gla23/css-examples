@@ -16,3 +16,7 @@
   margin-bottom: 20px;
   width: 200px;
 }
+
+html {
+  height: 100%;
+}
