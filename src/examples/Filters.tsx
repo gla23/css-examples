@@ -14,7 +14,7 @@ export function Filters() {
       <Mace style={{ filter: "blur(10px)" }} />
       <div className="text-2xl my-4">Backdrop-filter</div>
       <div className="relative">
-        <img src={chan} />
+        <img src={chan} className="-scale-x-100" />
         <div className="absolute top-0 backdrop-invert w-40 h-12 text-xs flex justify-center items-center">
           backdrop-invert
         </div>
